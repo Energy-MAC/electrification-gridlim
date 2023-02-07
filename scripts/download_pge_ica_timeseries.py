@@ -4,10 +4,6 @@ from PG&E, using selenium to access the PG&E ICA map.
 
 This script does the following:
 * downloads the ICA timeseries for each feeder on the PG&E ICA map, and saves it as a pickled dataframe
-* (optionally) creates an additional single "reduced" dataframe that (1) calculates the IC_Limiting_kW, which is the
-minimum of the IC_Thermal_kW and the IC_Voltage_kW for each feeder ID-month-hour combination, and then (2) selects,
-for each feeder ID, only the maximum load values for IC_Thermal_kW, IC_Voltage_kW, and IC_Limiting_kW across all
-month-hours
 
 To use this script, you need to: (1) have Google Chrome installed on your computer, (2) download the PG&E ICA
 geodatabase from https://www.pge.com/b2b/distribution-resource-planning/downloads/integration-capacity/ICADisplay.gdb.zip,
