@@ -4,3 +4,7 @@ This repository contains a partial set of scripts for the paper: Elmallah, S., B
 **Scripts**
 
 download_pge_ica_timeseries.py: downloads and saves individual feeder ICA timeseries files from the PG&E ICA map
+
+**Data**
+
+circl_county: contains analytic dataset by county, along with data dictionary
