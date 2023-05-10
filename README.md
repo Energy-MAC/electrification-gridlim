@@ -7,4 +7,4 @@ download_pge_ica_timeseries.py: downloads and saves individual feeder ICA timese
 
 **Data**
 
-circl_county: contains analytic dataset by county, along with data dictionary
+circl_county: contains analytic dataset showing feeder-month-hour load increases and load integration capacity limits by county, along with data dictionary
